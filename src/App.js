@@ -1,8 +1,8 @@
 // import React, { useState } from 'react';
 import './App.css';
 // import Form from './Form';
-import Student from './Student';
-// import Users from './Users';
+// import Student from './Student';
+import Users from './Users';
 
 function App() {
   // const [show, setshow] = useState(false);
@@ -17,12 +17,12 @@ function App() {
   // }
   return (
     <>
-      <Student name="Luffy"/>
+      {/* <Student name="Luffy"/> */}
       {/* <div className="App">
         <h1>{name}</h1>
         <button onClick={apple}>Hello</button>
       </div>
-      <Users name={name} setname={setname}><h1>hello boy</h1></Users>
+      
       <input type="text" onChange={changeIt} />
       <h1>{inputer}</h1>
       <h3>Size {inputer.length}</h3>
@@ -31,6 +31,7 @@ function App() {
       <button onClick={()=>{setshow(true)}}>show</button>
       <button onClick={()=>{setshow(false)}}>Hide</button> */}
       {/* <Form/> */}
+      <Users name="Rahul"/>
     </>
   );
 }
