@@ -2,8 +2,8 @@
 import './App.css';
 // import Form from './Form';
 // import Student from './Student';
-import Users from './Users';
-
+// import Users from './Users';
+import Mapping from './Mapping';
 function App() {
   // const [show, setshow] = useState(false);
   // const [name, setname] = useState("Neelesh");
@@ -31,7 +31,8 @@ function App() {
       <button onClick={()=>{setshow(true)}}>show</button>
       <button onClick={()=>{setshow(false)}}>Hide</button> */}
       {/* <Form/> */}
-      <Users name="Rahul"/>
+      {/* <Users name="Rahul"/> */}
+      <Mapping/>
     </>
   );
 }
