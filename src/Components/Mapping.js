@@ -1,6 +1,6 @@
 import React from 'react'
 import {Table} from 'react-bootstrap'
-import Reuse1 from './Reuse1'
+import Reuse1 from '../Reuse1'
 function Mapping() {
   const arr = [
     {name:"Neelesh", age:22, crush:"All Girls", Fav_anime:[{name:"One Piece", episodes:"1054*"},{name:"Naruto", episodes:"720"}, {name:"Black Clover", episodes:"170"}, {name:"Black Clover", episodes:"170"}]},

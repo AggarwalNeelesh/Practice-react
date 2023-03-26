@@ -1,5 +1,5 @@
 import React from 'react'
-import Reuse2 from './Reuse2'
+import Reuse2 from './Components/Reuse2'
 import {Table} from 'react-bootstrap'
 function Reuse1(props) {
   return (
