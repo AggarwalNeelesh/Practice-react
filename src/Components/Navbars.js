@@ -11,6 +11,7 @@ function Navbars() {
           <Nav className="me-auto Navib">
           <NavLink className='abc' to="/" style={{margin:"10px"}}>Home</NavLink>
             <NavLink className='abc' to="/about" style={{margin:"10px"}}>About</NavLink>
+            <NavLink className='abc' to="/anime" style={{margin:"10px"}}>Anime</NavLink>
             <NavLink  className='abc' to="/user" style={{margin:"10px"}}>User</NavLink>
             <NavLink  className='abc' to="/filter" style={{margin:"10px"}}>Filter</NavLink>
             <NavLink  className='abc' to="/xyz" style={{margin:"10px"}}>Company</NavLink>
