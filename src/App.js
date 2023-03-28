@@ -11,13 +11,16 @@ import Users from './Components/Users';
 import Navbars from './Components/Navbars';
 import PageNotFound from './Components/PageNoteFound';
 import Anime from './Components/Anime';
+import Login from './Components/Login';
+import Protected from './Components/Protected';
 function App() {
   return (
     <>
     <BrowserRouter>
     <Navbars/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Protected Component={Home}/>}/>
+        <Route path='/login' element={<Login/>}/>
         <Route path='/anime/' element={<Anime/>}>
           <Route path='luffy' element={<Luffy/>}/>
           <Route path='naruto' element={<Naruto/>}/>
