@@ -13,6 +13,8 @@ import PageNotFound from './Components/PageNoteFound';
 import Anime from './Components/Anime';
 import Login from './Components/Login';
 import Protected from './Components/Protected';
+import LuffyCrew from './Components/LuffyCrew';
+import Jokes from './Components/Jokes';
 function App() {
   return (
     <>
@@ -22,13 +24,15 @@ function App() {
         <Route path='/' element={<Protected Component={Home}/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/anime/' element={<Anime/>}>
-          <Route path='luffy' element={<Luffy/>}/>
+          <Route path='strawHats' element={<Luffy/>}/>
+          <Route path='strawHats/:name/:desig' element={<LuffyCrew/>}/>
           <Route path='naruto' element={<Naruto/>}/>
         </Route>
         <Route path='/about' element={<About/>}/>
         <Route path='/user' element={<Users/>}/>
         <Route path='/user/:name' element={<Users/>}/>
         <Route path='/filter' element={<Filter/>}/>
+        <Route path='/jokes' element={<Jokes/>}/>
         <Route path='/*' element={<PageNotFound/>}/>
       </Routes>
     </BrowserRouter>
